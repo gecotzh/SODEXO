@@ -1,0 +1,149 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sodexo.EPedidos.WebApp", "Sodexo.EPedidos.WebApp\Sodexo.EPedidos.WebApp.csproj", "{0BE226CD-C216-4B06-9335-B76AEC425816}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentacion", "Presentacion", "{6B33E394-59FA-4485-98F5-05F693E46B10}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Componentes", "Componentes", "{4FF50636-8725-40AC-BC8C-16847ED6E6B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infraestructura", "Infraestructura", "{FDF8A1C0-5897-4AC7-8CA2-7746D93B415E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Comun", "Comun", "{2CC67C42-0B29-48E1-8BC5-B7A334C96A0A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Negocio", "Negocio", "{356B92B8-AD87-4709-AA7C-653239F14BBD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Recursos", "Recursos", "{571F8914-3777-4C69-AD1F-74EB075FC626}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entidades", "Entidades", "{C05FAFDC-1121-4094-B1E3-3D654378D6E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logica", "Logica", "{872E6050-E30D-4885-89D1-7975A629E70A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AccesoDatos", "AccesoDatos", "{E7F88A1B-D833-4484-AB5C-2505520CF55E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Servicios", "Servicios", "{24CD7302-3994-4F8F-89EA-7739455182DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sodexo.EPedidos.Servicio.Proxy", "Sodexo.EPedidos.Servicio.Proxy\Sodexo.EPedidos.Servicio.Proxy.csproj", "{2B841845-9B1E-4A16-A7AB-41D2CDB77E59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sodexo.EPedidos.Entidades", "Sodexo.EPedidos.Entidades\Sodexo.EPedidos.Entidades.csproj", "{0C8A3B6A-829E-4F61-9BC2-EF2B3156B7FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Seguridad", "Seguridad", "{82BFA15B-F111-4A48-909D-E5A2AB7A4EC2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServicioWIndows", "ServicioWIndows", "{4E3D09C7-478A-49B9-8649-705BE3D68EBF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Diagnostico", "Diagnostico", "{31FC69CB-7240-4365-A79D-2421491C23E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sodexo.EPedidos.Seguridad", "Sodexo.EPedidos.Seguridad\Sodexo.EPedidos.Seguridad.csproj", "{46CD4B84-14F8-4305-A5A2-EA58F5DB5765}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sodexo.EPedidos.Trazado", "Sodexo.EPedidos.Trazado\Sodexo.EPedidos.Trazado.csproj", "{365F649E-C1A6-4F44-A4E5-C8B6423D9F14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sodexo.EPedidos.Utilidades", "Sodexo.EPedidos.Utilidades\Sodexo.EPedidos.Utilidades.csproj", "{1BD2196C-264B-40C7-9DA1-1326B4AA7B28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sodexo.EPedidos.Logica", "Sodexo.EPedidos.Logica\Sodexo.EPedidos.Logica.csproj", "{38E4D7B0-3AC7-4098-8E89-318348224F51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sodexo.EPedidos.Datos", "Sodexo.EPedidos.Datos\Sodexo.EPedidos.Datos.csproj", "{E38A548A-A8DB-4C09-A1C1-1F034E032337}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BE226CD-C216-4B06-9335-B76AEC425816}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BE226CD-C216-4B06-9335-B76AEC425816}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BE226CD-C216-4B06-9335-B76AEC425816}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BE226CD-C216-4B06-9335-B76AEC425816}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B841845-9B1E-4A16-A7AB-41D2CDB77E59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B841845-9B1E-4A16-A7AB-41D2CDB77E59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B841845-9B1E-4A16-A7AB-41D2CDB77E59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B841845-9B1E-4A16-A7AB-41D2CDB77E59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C8A3B6A-829E-4F61-9BC2-EF2B3156B7FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C8A3B6A-829E-4F61-9BC2-EF2B3156B7FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C8A3B6A-829E-4F61-9BC2-EF2B3156B7FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C8A3B6A-829E-4F61-9BC2-EF2B3156B7FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46CD4B84-14F8-4305-A5A2-EA58F5DB5765}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46CD4B84-14F8-4305-A5A2-EA58F5DB5765}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46CD4B84-14F8-4305-A5A2-EA58F5DB5765}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46CD4B84-14F8-4305-A5A2-EA58F5DB5765}.Release|Any CPU.Build.0 = Release|Any CPU
+		{365F649E-C1A6-4F44-A4E5-C8B6423D9F14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{365F649E-C1A6-4F44-A4E5-C8B6423D9F14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{365F649E-C1A6-4F44-A4E5-C8B6423D9F14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{365F649E-C1A6-4F44-A4E5-C8B6423D9F14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BD2196C-264B-40C7-9DA1-1326B4AA7B28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BD2196C-264B-40C7-9DA1-1326B4AA7B28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BD2196C-264B-40C7-9DA1-1326B4AA7B28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BD2196C-264B-40C7-9DA1-1326B4AA7B28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38E4D7B0-3AC7-4098-8E89-318348224F51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38E4D7B0-3AC7-4098-8E89-318348224F51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38E4D7B0-3AC7-4098-8E89-318348224F51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38E4D7B0-3AC7-4098-8E89-318348224F51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E38A548A-A8DB-4C09-A1C1-1F034E032337}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E38A548A-A8DB-4C09-A1C1-1F034E032337}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E38A548A-A8DB-4C09-A1C1-1F034E032337}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E38A548A-A8DB-4C09-A1C1-1F034E032337}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0BE226CD-C216-4B06-9335-B76AEC425816} = {6B33E394-59FA-4485-98F5-05F693E46B10}
+		{4FF50636-8725-40AC-BC8C-16847ED6E6B5} = {FDF8A1C0-5897-4AC7-8CA2-7746D93B415E}
+		{2CC67C42-0B29-48E1-8BC5-B7A334C96A0A} = {4FF50636-8725-40AC-BC8C-16847ED6E6B5}
+		{356B92B8-AD87-4709-AA7C-653239F14BBD} = {4FF50636-8725-40AC-BC8C-16847ED6E6B5}
+		{571F8914-3777-4C69-AD1F-74EB075FC626} = {4FF50636-8725-40AC-BC8C-16847ED6E6B5}
+		{C05FAFDC-1121-4094-B1E3-3D654378D6E7} = {356B92B8-AD87-4709-AA7C-653239F14BBD}
+		{872E6050-E30D-4885-89D1-7975A629E70A} = {356B92B8-AD87-4709-AA7C-653239F14BBD}
+		{E7F88A1B-D833-4484-AB5C-2505520CF55E} = {571F8914-3777-4C69-AD1F-74EB075FC626}
+		{24CD7302-3994-4F8F-89EA-7739455182DF} = {571F8914-3777-4C69-AD1F-74EB075FC626}
+		{2B841845-9B1E-4A16-A7AB-41D2CDB77E59} = {24CD7302-3994-4F8F-89EA-7739455182DF}
+		{0C8A3B6A-829E-4F61-9BC2-EF2B3156B7FF} = {C05FAFDC-1121-4094-B1E3-3D654378D6E7}
+		{82BFA15B-F111-4A48-909D-E5A2AB7A4EC2} = {FDF8A1C0-5897-4AC7-8CA2-7746D93B415E}
+		{4E3D09C7-478A-49B9-8649-705BE3D68EBF} = {FDF8A1C0-5897-4AC7-8CA2-7746D93B415E}
+		{31FC69CB-7240-4365-A79D-2421491C23E9} = {FDF8A1C0-5897-4AC7-8CA2-7746D93B415E}
+		{46CD4B84-14F8-4305-A5A2-EA58F5DB5765} = {82BFA15B-F111-4A48-909D-E5A2AB7A4EC2}
+		{365F649E-C1A6-4F44-A4E5-C8B6423D9F14} = {31FC69CB-7240-4365-A79D-2421491C23E9}
+		{1BD2196C-264B-40C7-9DA1-1326B4AA7B28} = {2CC67C42-0B29-48E1-8BC5-B7A334C96A0A}
+		{38E4D7B0-3AC7-4098-8E89-318348224F51} = {872E6050-E30D-4885-89D1-7975A629E70A}
+		{E38A548A-A8DB-4C09-A1C1-1F034E032337} = {E7F88A1B-D833-4484-AB5C-2505520CF55E}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://sdx-projects.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Sodexo.EPedidos.Entidades\\Sodexo.EPedidos.Entidades.csproj
+		SccProjectTopLevelParentUniqueName1 = Sodexo.EPedidos.sln
+		SccProjectName1 = Sodexo.EPedidos.Entidades
+		SccLocalPath1 = Sodexo.EPedidos.Entidades
+		SccProjectUniqueName2 = Sodexo.EPedidos.Datos\\Sodexo.EPedidos.Datos.csproj
+		SccProjectTopLevelParentUniqueName2 = Sodexo.EPedidos.sln
+		SccProjectName2 = Sodexo.EPedidos.Datos
+		SccLocalPath2 = Sodexo.EPedidos.Datos
+		SccProjectUniqueName3 = Sodexo.EPedidos.Logica\\Sodexo.EPedidos.Logica.csproj
+		SccProjectTopLevelParentUniqueName3 = Sodexo.EPedidos.sln
+		SccProjectName3 = Sodexo.EPedidos.Logica
+		SccLocalPath3 = Sodexo.EPedidos.Logica
+		SccProjectUniqueName4 = Sodexo.EPedidos.Seguridad\\Sodexo.EPedidos.Seguridad.csproj
+		SccProjectTopLevelParentUniqueName4 = Sodexo.EPedidos.sln
+		SccProjectName4 = Sodexo.EPedidos.Seguridad
+		SccLocalPath4 = Sodexo.EPedidos.Seguridad
+		SccProjectUniqueName5 = Sodexo.EPedidos.Servicio.Proxy\\Sodexo.EPedidos.Servicio.Proxy.csproj
+		SccProjectTopLevelParentUniqueName5 = Sodexo.EPedidos.sln
+		SccProjectName5 = Sodexo.EPedidos.Servicio.Proxy
+		SccLocalPath5 = Sodexo.EPedidos.Servicio.Proxy
+		SccProjectUniqueName6 = Sodexo.EPedidos.Trazado\\Sodexo.EPedidos.Trazado.csproj
+		SccProjectTopLevelParentUniqueName6 = Sodexo.EPedidos.sln
+		SccProjectName6 = Sodexo.EPedidos.Trazado
+		SccLocalPath6 = Sodexo.EPedidos.Trazado
+		SccProjectUniqueName7 = Sodexo.EPedidos.Utilidades\\Sodexo.EPedidos.Utilidades.csproj
+		SccProjectTopLevelParentUniqueName7 = Sodexo.EPedidos.sln
+		SccProjectName7 = Sodexo.EPedidos.Utilidades
+		SccLocalPath7 = Sodexo.EPedidos.Utilidades
+		SccProjectUniqueName8 = Sodexo.EPedidos.WebApp\\Sodexo.EPedidos.WebApp.csproj
+		SccProjectTopLevelParentUniqueName8 = Sodexo.EPedidos.sln
+		SccProjectName8 = Sodexo.EPedidos.WebApp
+		SccLocalPath8 = Sodexo.EPedidos.WebApp
+	EndGlobalSection
+EndGlobal
